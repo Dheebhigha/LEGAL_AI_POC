@@ -8,7 +8,7 @@ with open("knowledge_base.json", "r") as file:
     knowledge = json.load(file)
 
 # Set your Gemini API key
-genai.configure(api_key="AIzaSyAEho69-SwcfSIy0WEWeQe0HGwsraXGJKg")
+genai.configure(api_key="YOUR_API_KEY")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
